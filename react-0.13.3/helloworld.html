@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="build/react.js"></script>
+    <script src="build/JSXTransformer.js"></script>
+    <style type="text/css">
+      .nav div {
+        float:left;
+        padding:5px;
+        margin:5px;
+      }
+
+      .nav > div .dropdown {
+        display: none
+      }
+
+      .nav > div:hover .dropdown {
+        display:block;
+      }
+
+      
+
+      .nav > div a:hover {
+        color:red;
+      }
+
+  
+    </style>
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/jsx" src="src/helloworld.js"></script>
+
+    <div class="nav">
+      <div><a href="#About">About</a></div>
+      <div><a href="#Research">Research</a>
+          <ul class="dropdown">
+            <li><a href="#">Groups and Projects</a></li>
+            <li><a href="#">Centers and Joint Programs</a></li>
+            <li><a href="#">Special Interest Groups</a></li>
+            <li><a href="#">Research Highlights</a></li>
+          </ul>
+      </div>
+      <div><a href="#People">People</a></div>
+      <div><a href="#Events">Events</a></div>
+      <div><a href="#News">News</a></div>
+      <div><a href="#Admissions">Admissions</a></div>
+      <div><a href="#Sponsorship">Sponsorship</a></div>
+    </div>
+
+  </body>
+</html>
+

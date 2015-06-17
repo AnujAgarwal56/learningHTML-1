@@ -1,0 +1,13 @@
+# start a server pointing to this directory
+python -m SimpleHTTPServer
+
+# on web browser type this to show the root directory on my server
+http://localhost:8000/
+
+# on html files make <div> blocks for text
+
+http://whyisitawesome.wikispaces.com/How+to+Get+Into+Web+Development
+http://www.w3schools.com/
+
+https://facebook.github.io/react/docs/tutorial.html
+http://getbootstrap.com/
